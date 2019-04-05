@@ -23,4 +23,10 @@ def above_freezing(celsius):
     False
     '''
     return celsius > 0
-
+if __name__ == '__main__':
+    fahrenheit = float(input('Enter the temperature in degrees fahrenheit: '))
+    celsius = convert_to_celsius(fahrenheit)
+    if above_freezing(celsius):
+        print('above freezing')
+    else:
+        print('below freezing')
