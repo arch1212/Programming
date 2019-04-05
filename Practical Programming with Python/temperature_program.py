@@ -7,7 +7,7 @@ def convert_to_celsius(fahrenheit):
     >>> convert_to_celsius(212)
     100.0
     >>> convert_to_celsius(112)
-    44.4
+    44.44444444444444
     '''
     return (fahrenheit - 32) * 5/9
 
